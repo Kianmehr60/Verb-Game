@@ -24046,6 +24046,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.Compare,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.behaviors.EightDir.prototype.acts.Stop,
+	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.system_object.prototype.acts.GoToLayout,
 	cr.system_object.prototype.cnds.Every,
 	cr.plugins_.Text.prototype.acts.SetVisible,
